@@ -4,7 +4,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "expo start --tunnel",
+    "start": "expo start --lan",
     "dev": "expo start",
     "assets": "node scripts/generate-assets.js",
     "build:apk": "npx --yes eas-cli build -p android --profile preview"
