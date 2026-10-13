@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="topShine" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#9B5FCB"/>
+      <stop offset="50%" stop-color="#7A3DB5"/>
+      <stop offset="100%" stop-color="#6A2FA0"/>
+    </radialGradient>
+    <radialGradient id="bottomShine" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F5F5"/>
+    </radialGradient>
+    <radialGradient id="buttonGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8E8E8"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1B1B1B" stroke-width="6"/>
+
+  <path d="M 5 100 A 95 95 0 0 1 195 100 Z" fill="url(#topShine)"/>
+
+  <ellipse cx="50" cy="60" rx="14" ry="20" fill="#E85D9C" opacity="0.85"/>
+  <ellipse cx="150" cy="60" rx="14" ry="20" fill="#E85D9C" opacity="0.85"/>
+
+  <text x="100" y="68" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">M</text>
+
+  <rect x="5" y="94" width="190" height="12" fill="#1B1B1B"/>
+
+  <circle cx="100" cy="100" r="26" fill="#1B1B1B"/>
+  <circle cx="100" cy="100" r="20" fill="url(#buttonGrad)"/>
+  <circle cx="100" cy="100" r="10" fill="#D0D0D0"/>
+
+  <path d="M 5 100 A 95 95 0 0 0 195 100 Z" fill="url(#bottomShine)"/>
+
+  <ellipse cx="72" cy="130" rx="22" ry="12" fill="#FFFFFF" opacity="0.35"/>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://fakestoreapi.com/products",
+        "EXPO_PUBLIC_STUDENT_NAME": "Diego David Guevara Flores",
+        "EXPO_PUBLIC_STUDENT_CARNET": "20240035",
+        "EXPO_PUBLIC_STUDENT_SECTION": "1-A"
+      }
+    }
+  }
+}

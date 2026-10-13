@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pollo Pollón",
+    "slug": "pollo-pollon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.pollopollon.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pollopollon.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFC20E"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFC20E",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2b39538c-273a-489b-bf12-da02361b4049"
+      }
+    },
+    "owner": "dd03s"
+  }
+}
