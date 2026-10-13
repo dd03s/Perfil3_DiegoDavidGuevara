@@ -1,7 +1,7 @@
 {
   "name": "pollo-pollon",
   "version": "1.0.0",
-  "main": "App.jsx",
+  "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
     "start": "expo start --tunnel",
