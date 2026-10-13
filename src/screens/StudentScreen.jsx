@@ -1,3 +1,4 @@
+//Lo quiero profe wilfredo
 import React, { useEffect, useRef } from 'react';
 import { View, Text, Animated, StyleSheet, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';

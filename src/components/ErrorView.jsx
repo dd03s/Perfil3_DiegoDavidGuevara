@@ -1,3 +1,4 @@
+//Lo quiero profe wilfredo
 import React, { useState } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { COLORS, SPACING, RADIUS, TYPOGRAPHY } from '../constants/theme';

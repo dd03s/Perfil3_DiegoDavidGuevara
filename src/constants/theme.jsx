@@ -1,3 +1,4 @@
+//Lo quiero profe wilfredo
 export const COLORS = {
   background: '#FFF8E7',
   card: '#FFFFFF',

@@ -1,3 +1,4 @@
+//Lo quiero profe wilfredo
 import React from 'react';
 import Svg, { Circle, Ellipse, Rect, Path, Text, Defs, RadialGradient, Stop } from 'react-native-svg';
 

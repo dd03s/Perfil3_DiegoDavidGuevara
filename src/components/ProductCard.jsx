@@ -1,3 +1,4 @@
+//Lo quiero profe wilfredo
 import React, { useEffect, useRef } from 'react';
 import { View, Text, Image, Animated, StyleSheet } from 'react-native';
 import { COLORS, SPACING, RADIUS, TYPOGRAPHY, SHADOWS } from '../constants/theme';
